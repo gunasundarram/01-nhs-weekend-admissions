@@ -12,7 +12,7 @@
 
 ## 🎯 Business Question
 Which NHS Trusts, diagnosis groups, and deprivation levels drive 
-disproportionate 30-day readmission rates — and what is the projected 
+disproportionate 30-day readmission rates and what is the projected 
 annual cost of closing the top 3 gaps?
 
 ---
@@ -45,3 +45,31 @@ health inequality signal
 ---
 
 ## 📁 Repository Structure
+01-nhs-weekend-admissions/
+├── data/
+│   ├── raw/          # NHS source CSVs (I02040, I02041)
+│   └── processed/    # SQL query outputs
+├── sql/              # All 5 analytical queries
+├── excel/            # Google Sheets cost model
+└── tableau/          # Dashboard screenshots
+
+---
+
+## 🔍 SQL Queries
+
+| Query | Purpose |
+|-------|---------|
+| Q1 | Top 20 trusts by readmission rate (2024/25) |
+| Q2 | 10-year trend for top 3 trusts |
+| Q3 | Diagnosis groups — Stroke & hip fracture |
+| Q4 | Cost projection — excess readmissions × £2,800 |
+| Q5 | Deprivation gradient analysis |
+
+---
+
+## ⚠️ Assumptions & Limitations
+- Cost estimate uses NHS National Schedule 2023/24 reference cost 
+of £2,800 per emergency readmission
+- Analysis covers all ages, all persons, snapshot method
+- Small trusts with fewer than 100 discharges excluded from cost model
+- Data source: NHS Digital, published May 2025
