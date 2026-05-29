@@ -44,17 +44,6 @@ health inequality signal
 
 ---
 
-## 📁 Repository Structure
-01-nhs-weekend-admissions/
-├── data/
-│   ├── raw/          # NHS source CSVs (I02040, I02041)
-│   └── processed/    # SQL query outputs
-├── sql/              # All 5 analytical queries
-├── excel/            # Google Sheets cost model
-└── tableau/          # Dashboard screenshots
-
----
-
 ## 🔍 SQL Queries
 
 | Query | Purpose |
