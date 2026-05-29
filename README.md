@@ -6,6 +6,7 @@
 ![Domain](https://img.shields.io/badge/Domain-Healthcare-red)
 
 ## 📊 Live Dashboard
+![Dashboard Preview](tableau/dashboard_preview.png)
 👉 [View on Tableau Public](https://public.tableau.com/app/profile/gunasundar.ram.chandrasekhar.sholingaram/viz/NHS-Weekend-Admissions-Readmission-Analysis/Dashboard1)
 
 ---
